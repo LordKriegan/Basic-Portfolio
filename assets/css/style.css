@@ -52,6 +52,7 @@ footer {
 	border-width: 3px;
 	border-color: #cccccc;
 	background-color: #ffffff;
+	width: 960px;
 }
 
 #name {
@@ -64,7 +65,7 @@ footer {
 #navbarlinks {
 	position: absolute;
 	top: 25px;
-	right: 270px;
+	right: 490px;
 	text-align: right;
 }
 
