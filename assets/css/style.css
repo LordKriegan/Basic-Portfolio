@@ -7,6 +7,13 @@ body {
 	margin-top: 0;
 	margin-left: 10%;
 	margin-right: 10%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+html {
+	height: 100%;
 }
 
 h1 {
@@ -32,6 +39,10 @@ a {
 footer {
 	background-color: #666666;
 	text-align: center;
+}
+
+.mainWrapper {
+  flex: 1 0 auto;
 }
 
 #navbar {
