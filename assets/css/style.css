@@ -3,6 +3,7 @@ header {
 	border-color: #cccccc;
 }
 
+/* using flexbox to make a sticky footer */
 body {
 	margin-top: 0;
 	margin-left: 10%;
@@ -49,7 +50,7 @@ footer {
 	width: 960px;
 }
 
-.mainWrapper {
+#mainWrapper {
   flex: 1 0 auto;
 }
 
@@ -108,6 +109,11 @@ footer {
 	width: 60px;
 	height: 60px;
 }
+
+.contactImgs:hover {
+	outline: 3px groove #4aaaa5;
+	outline-offset: 1px;
+}
 /* https://stackoverflow.com/questions/9008559/css-put-h1-on-image 
 not sure why this works :P
 */
@@ -121,6 +127,10 @@ not sure why this works :P
 .pfLinksImage {
 	width: 100%;
 	height: 100%;
+}
+
+.pfLinksImage:hover {
+	outline: 5px groove #4aaaa5;
 }
 
 .pfLinksTitle {
@@ -139,4 +149,9 @@ not sure why this works :P
 
 .pgHeader {
 	color: #4aaaa5;
+}
+
+.txtLink:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
 }

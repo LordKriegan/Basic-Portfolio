@@ -6,16 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div class="mainWrapper">
+	<div id="mainWrapper">
 		<div id="navbar">
 			<header>
 				<section id="name">
 					<h1>Qamar Stationwala</h1>
 				</section>
 				<section id="navbarlinks">
-					<a href="index.html">About</a>
-					<a href="portfolio.html">Portfolio</a>
-					<a href="#">Contact Me</a>	
+					<a class="txtLink" href="index.html">About</a>
+					<a class="txtLink" href="portfolio.html">Portfolio</a>
+					<a class="txtLink" href="#">Contact Me</a>	
 				</section>
 			</header>
 		</div>
@@ -24,14 +24,14 @@
 				<div class="contentMain">
 					<h1 class="pgHeader">Contact Me</h1>
 					<hr>
-					<form style="padding-bottom: 2%;">
+					<form style="padding-bottom: 2%;"> <!-- currently non-functional, this is a form for user to fill out and send me messages -->
 						Name<br>
 						<input style="width: 100%;" type="text" name="contactName" value="Your Name"><br>
 						Email<br>
 						<input style="width: 100%;" type="text" name="contactEmail" value="example@email.com"><br>
 						Message<br>
 						<textarea style="resize: none; width: 100%" rows="8" cols="1" name="contactMsg" value=""></textarea><br>
-						<input style="background: #4aaaa5; color: #ffffff;" type="submit" value="Submit">
+						<input style="background-color: #4aaaa5; color: #ffffff;" type="submit" value="Submit">
 					</form>
 				</div>
 			</section>
