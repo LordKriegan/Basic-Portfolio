@@ -107,6 +107,12 @@ footer {
 	text-align: center;
 }
 
+/*makes portfolio links line up without having to use floats*/
+#pfFlexBox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .txtBox {
 	width: 100%;
 }
@@ -126,7 +132,7 @@ footer {
 }
 /* https://stackoverflow.com/questions/9008559/css-put-h1-on-image*/
 .pfLinks {
-	padding: 10px 0 10px 0;
+	margin: 10px 5px 10px 5px;
 	width: 280px;
 	height: 280px;
 	position: relative;
