@@ -115,6 +115,8 @@ footer {
 
 .txtBox {
 	width: 100%;
+	font-style: italic;
+	color: #777777;
 }
 .pContent {
 	padding: 0 5px 20px 5px;
